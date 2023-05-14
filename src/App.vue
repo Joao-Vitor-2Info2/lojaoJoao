@@ -21,8 +21,6 @@ function limparCarrinho() {
   carrinho.value.items = []
 }
 
-let valorTotal = ref(0)
-
 function adicionarItem(produto) {
   carrinho.value.items.push({
     id: produto.id,
